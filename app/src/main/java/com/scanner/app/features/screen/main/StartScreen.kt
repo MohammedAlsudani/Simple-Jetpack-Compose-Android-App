@@ -41,7 +41,7 @@ fun StartScreen(mainViewModel: MainViewModel) {
                 verticalArrangement = Arrangement.spacedBy(ScannerTheme.dimensions.dimension16)) {
                 // Logo
                 Image(
-                    painter = painterResource(id = R.drawable.ic_dxb_word_mark),
+                    painter = painterResource(id = R.drawable.ic_logo),
                     contentDescription = "dxb_word_mark"
                 )
                 // Greeting

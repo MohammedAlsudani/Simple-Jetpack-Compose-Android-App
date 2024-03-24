@@ -2,7 +2,6 @@ package com.scanner.app.features.component
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -41,7 +40,7 @@ fun ProfileRow(mainViewModel: MainViewModel) {
         )
         Image(
             modifier = Modifier.height(ScannerTheme.dimensions.dimension28),
-            painter = painterResource(id = R.drawable.ic_dxb_word_mark),
+            painter = painterResource(id = R.drawable.ic_logo),
             contentDescription = "Qr Code Status Image"
         )
     }
