@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Scanner</string>
+    <string name="enter_ba_tag">Enter Bag Tag # to search for</string>
+    <string name="confirm">Confirm</string>
+</resources>
